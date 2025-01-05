@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>My Website</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="p-2 max-w-7xl mx-auto">
+      <div class="flex justify-between items-center">
+        <div class="flex gap-4 items-center">
+          <h1 class="text-2xl font-semibold text-gray-500">
+            Hero<span class="text-2xl font-semibold text-yellow-300">Go</span>
+          </h1>
+
+          <ul class="hidden md:flex items-center gap-4">
+            <li class="">
+              <a href="#">Product </a>
+              <i class="bx bx-chevron-down"></i>
+            </li>
+            <li class="">
+              <a href="#">Solution</a>
+              <i class="bx bx-chevron-down"></i>
+            </li>
+            <li class="">
+              <a href="#">Why HireGo </a>
+              <i class="bx bx-chevron-down"></i>
+            </li>
+            <li class="">
+              <a href="#">Pricing </a>
+              <i class="bx bx-chevron-down"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="hidden sm:flex gap-3">
+          <button
+            class="px-2 py-1 border-2 hover:bg-gray-200 text-black hover:text-blue-600 transition-all duration-200 rounded-xl"
+          >
+            English
+          </button>
+          <button
+            class="px-2 py-1 border-2 hover:bg-gray-200 text-black hover:text-blue-600 transition-all duration-200 rounded-xl"
+          >
+            Login
+          </button>
+          <button
+            class="px-2 py-1 border-2 bg-black hover:bg-gray-500 text-white hover:text-blue-600 transition-all duration-200 rounded-xl"
+          >
+            Register a demo
+          </button>
+        </div>
+        <div class="md:hidden">
+          <i class="bx bx-menu text-xl"></i>
+        </div>
+      </div>
+    </nav>
+
+    <header
+      class="bg-blue-200 max-w-7xl mx-auto p-8 rounded-lg flex flex-col md:flex-row items-center gap-6"
+    >
+      <!-- Text Content -->
+      <div class="flex-1 text-left">
+        <h1 class="text-3xl md:text-5xl font-bold text-gray-800">
+          HireGO is your <br />
+          all-in-one <br />
+          <span class="text-gray-900">Global People Platform</span>
+        </h1>
+        <ul class="mt-4 text-lg text-gray-700 space-y-2">
+          <li>
+            <i
+              class="bx bx-check ring-2 ring-white rounded-full text-white mr-2 bg-green-300"
+            ></i>
+            G3's Leader in global employment platforms
+          </li>
+          <li>
+            <i
+              class="bx bx-check ring-2 ring-white rounded-full text-white mr-2 bg-green-300"
+            ></i>
+            90% customer satisfaction rate
+          </li>
+        </ul>
+        <button
+          class="mt-6 bg-black text-white px-6 py-3 rounded-lg text-lg hover:bg-gray-800 transition flex items-center"
+        >
+          <span>Request a demo</span> <i class='bx bx-chevron-right text-2xl'></i>
+        </button>
+      </div>
+
+      <!-- Image and Floating Labels -->
+      <div class="relative flex-1">
+        <img
+          src="./image/headerimage.jpeg"
+          alt="HireGO illustration"
+          class="rounded-lg shadow-lg w-full h-auto"
+        />
+        <!-- Floating Labels -->
+        <div
+          class="absolute top-4 -left-4 bg-green-500 text-white px-4 py-2 rounded-lg text-sm shadow-lg"
+        >
+          Immigration support
+        </div>
+        <div
+          class="absolute top-12 right-4 bg-yellow-400 text-gray-800 px-4 py-2 rounded-lg text-sm shadow-lg"
+        >
+          Expand your team and hire globally
+        </div>
+        <div
+          class="absolute bottom-2 right-4 bg-purple-500 text-white px-4 py-2 rounded-lg text-sm shadow-lg"
+        >
+          Set your team up
+        </div>
+        <div
+          class="absolute bottom-4 -left-16 bg-blue-500 text-white px-4 py-2 rounded-lg text-sm shadow-lg"
+        >
+          Pay anyone, anywhere in minutes
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-gray-50 flex items-center justify-center my-10">
+      <div class="w-full max-w-7xl mx-auto">
+        <!-- Title -->
+        <div class="text-center mb-8">
+          <h1 class="text-center font-semibold text-gray-600 text-2xl">
+            Trusted by <span class="font-extrabold text-black">25,000+</span>
+            companies from
+            <br />
+            startups to enterprise
+          </h1>
+        </div>
+
+        <div
+          class="max-w-5xl mx-auto px-2 sm:px-0 flex gap-3 items-center justify-between"
+        >
+          <div>
+            <img src="./image/nike.svg" class="w-16 h-16" alt="image" />
+          </div>
+          <div>
+            <img src="./image/redbull.svg" class="w-16 h-16" alt="image" />
+          </div>
+          <div>
+            <img src="./image/nike.svg" class="w-16 h-16" alt="image" />
+          </div>
+          <div class="hidden sm:block">
+            <img src="./image/redbull.svg" class="w-16 h-16" alt="image" />
+          </div>
+          <div class="hidden sm:block">
+            <img src="./image/nike.svg" class="w-16 h-16" alt="image" />
+          </div>
+        </div>
+        <div
+          class="max-w-5xl mx-auto px-2 sm:px-0 flex gap-3 items-center justify-between"
+        >
+          <div>
+            <img src="./image/nike.svg" class="w-16 h-16" alt="image" />
+          </div>
+          <div>
+            <img src="./image/redbull.svg" class="w-16 h-16" alt="image" />
+          </div>
+          <div>
+            <img src="./image/nike.svg" class="w-16 h-16" alt="image" />
+          </div>
+          <div class="hidden sm:block">
+            <img src="./image/redbull.svg" class="w-16 h-16" alt="image" />
+          </div>
+          <div class="hidden sm:block">
+            <img src="./image/nike.svg" class="w-16 h-16" alt="image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-900 text-white py-12 px-4 rounded-3xl">
+      <div class="max-w-7xl mx-auto text-center">
+        <h1 class="text-3xl md:text-4xl font-bold mb-8">
+          You can do it all. <br />
+          With HireGO.
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Card 1 -->
+          <div
+            class="flex flex-col items-start bg-gray-800 p-6 rounded-lg shadow-md"
+          >
+            <h2 class="text-xl sm:text-3xl font-semibold mb-4">
+              Hire international talent
+            </h2>
+            <p class="text-gray-400 mb-6 text-justify">
+              Instead of setting up your own entities, experience the speed of
+              HireGO's automated global hiring. Create compliant employment
+              agreements and set up payroll and benefits—in a matter of clicks.
+            </p>
+            <button
+              class="bg-white hover:bg-blue-700 text-black py-2 px-4 rounded-full font-semibold"
+            >
+              Hire International talent →
+            </button>
+            <div class="mt-3">
+              <img src="./image/headerimage.jpeg" class="rounded-3xl" alt="" />
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="flex flex-col items-start gap-2">
+            <div class="bg-green-800 p-6 rounded-lg shadow-md flex-1">
+              <h2 class="text-xl sm:text-3xl font-semibold mb-4">
+                Hire contractors
+              </h2>
+              <p class="text-gray-400 mb-6">
+                Generate, edit, and sign compliant contracts in minutes and
+                access management tools to streamline paperwork, onboarding, and
+                payments.
+              </p>
+              <button
+                class="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded"
+              >
+                Hire contractors →
+              </button>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-blue-800 p-6 rounded-lg shadow-md flex-1">
+              <h2 class="text-xl font-semibold mb-4">
+                Convert contractors to employees
+              </h2>
+              <p class="text-gray-400 mb-6">
+                Assess global worker misclassification risks and compliantly
+                convert contractors to full-timers, all under one platform.
+              </p>
+              <button
+                class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
+              >
+                Convert contractors →
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Stats Section -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12 text-center">
+          <div>
+            <h2 class="text-3xl font-bold">5,000+</h2>
+            <p class="text-gray-400">Loved by 5,000+ Team Members</p>
+          </div>
+          <div>
+            <h2 class="text-3xl font-bold">25,000+</h2>
+            <p class="text-gray-400">Trusted by 25,000+ customers</p>
+          </div>
+          <div>
+            <h2 class="text-3xl font-bold">48 hrs</h2>
+            <p class="text-gray-400">Onboard talent in as little as 48 hours</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-6 py-12">
+      <div class="max-w-7xl mx-auto text-center">
+        <h1 class="text-3xl md:text-5xl font-bold text-gray-800 mb-8">
+          Take your business to the next level.
+        </h1>
+      </div>
+
+      <div
+        class="sm:hidden grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-6xl mx-auto items-center"
+      >
+        <!-- first Block -->
+        <div class="mt-4 md:mt-0 md:ml-6 flex-1">
+          <img
+            src="./image/work.png"
+            alt="Payroll software"
+            class="rounded-lg"
+          />
+        </div>
+        <div class="flex-1">
+          <h2 class="text-xl font-bold text-yellow-600 mb-2">
+            Culture and performance. <br />
+            It's up and up.
+          </h2>
+          <p class="text-gray-600 mb-4">
+            Develop feedback loops, set KPIs, and design custom performance
+            reviews. Quickly build a positive performance culture for your
+            business—where everyone is striving for the same goals.
+          </p>
+          <button
+            class="bg-white text-black border-2 rounded-full px-4 py-2 hover:bg-purple-700"
+          >
+            Performance Management →
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="hidden sm:grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-6xl mx-auto items-center"
+      >
+        <!-- first Block -->
+
+        <div class="flex-1">
+          <h2 class="text-xl font-bold text-yellow-600 mb-2">
+            Culture and performance. <br />
+            It's up and up.
+          </h2>
+          <p class="text-gray-600 mb-4">
+            Develop feedback loops, set KPIs, and design custom performance
+            reviews. Quickly build a positive performance culture for your
+            business—where everyone is striving for the same goals.
+          </p>
+          <button
+            class="bg-white text-black border-2 rounded-full px-4 py-2 hover:bg-purple-700"
+          >
+            Performance Management →
+          </button>
+        </div>
+        <div class="mt-4 md:mt-0 md:ml-6 flex-1">
+          <img
+            src="./image/work.png"
+            alt="Payroll software"
+            class="rounded-lg"
+          />
+        </div>
+      </div>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-6xl mx-auto items-center"
+      >
+        <!-- Second Block -->
+
+        <div class="mt-4 md:mt-0 md:ml-6 flex-1">
+          <img
+            src="./image/researchimage.png"
+            alt="Payroll software"
+            class="rounded-lg"
+          />
+        </div>
+        <div class="flex-1">
+          <h2 class="text-xl font-bold text-purple-600 mb-2">
+            It’s payroll software. <br />
+            Just faster.
+          </h2>
+          <p class="text-gray-600 mb-4">
+            Save your time, pay your people with automated payroll. Enjoy the
+            benefits of real-time information (RTI) and take care of workforce
+            planning — all in one simple place.
+          </p>
+          <button
+            class="bg-white text-black border-2 border-black rounded-full px-4 py-2 hover:bg-purple-700"
+          >
+            Payroll Features →
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-700 text-white py-16 px-6">
+      <div class="max-w-6xl mx-auto">
+        <!-- Heading -->
+        <h2 class="text-4xl font-bold text-center mb-12 md:text-5xl">
+          We help teams grow faster <br />
+          across borders.
+        </h2>
+
+        <!-- Content Wrapper -->
+        <div
+          class="flex flex-col md:flex-row items-center justify-between gap-8 bg-sky-400 rounded-lg"
+        >
+          <!-- Testimonial -->
+          <div class="text-black p-6 rounded-lg flex-1 max-w-md md:max-w-none">
+            <p class="text-xl font-medium mb-4">
+              “Saving time and simplifying the process and saving money. It was
+              the triple trifecta.”
+            </p>
+            <p class="text-sm font-bold">Ally Fekaki, CEO - Soho, New York</p>
+            <button
+              class="mt-4 px-6 py-2 bg-white text-black rounded-lg hover:bg-gray-800"
+            >
+              Learn more &rarr;
+            </button>
+          </div>
+
+          <!-- Image -->
+          <div class="flex-1">
+            <img
+              src="./image/team.png"
+              alt="Team working together"
+              class="shadow-lg max-w-full"
+            />
+          </div>
+        </div>
+
+        <!-- Dots Navigation (if part of a carousel) -->
+        <div class="flex justify-center mt-8 space-x-2">
+          <span class="w-3 h-3 bg-gray-500 rounded-full"></span>
+          <span class="w-3 h-3 bg-white rounded-full"></span>
+          <span class="w-3 h-3 bg-gray-500 rounded-full"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white py-16 px-6">
+      <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">
+        Get started with HireGo <br />
+        in three easy steps.
+      </h2>
+      <div
+        class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+      >
+        <!-- Left Side: Image with labels -->
+        <div class="relative">
+          <div class="bg-purple-100 p-4 rounded-lg">
+            <img
+              src="./image/footerpicture.png"
+              alt="Integration example"
+              class="rounded-lg transform scale-105 shadow-lg"
+            />
+          </div>
+          <!-- Labels -->
+          <div class="absolute top-6 left-6">
+            <span
+              class="bg-green-500 text-white text-sm px-3 py-1 rounded-full shadow-md"
+            >
+              Easy of integration
+            </span>
+          </div>
+          <div class="absolute bottom-6 right-6">
+            <span
+              class="bg-yellow-400 text-gray-900 text-sm px-3 py-1 rounded-full shadow-md"
+            >
+              Relocation contracts
+            </span>
+          </div>
+        </div>
+
+        <!-- Right Side: Steps -->
+        <div>
+          <div class="space-y-6">
+            <!-- Step 1 -->
+            <div class="flex items-start space-x-4">
+              <div
+                class="bg-purple-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-semibold"
+              >
+                1
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold">Book a call</h3>
+                <p class="text-gray-600">
+                  Book a call with our global workforce consultants. We'll set
+                  you up with a free account ready to suit your team’s needs.
+                </p>
+              </div>
+            </div>
+            <!-- Step 2 -->
+            <div class="flex items-start space-x-4">
+              <div
+                class="bg-purple-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-semibold"
+              >
+                2
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold">Add your people</h3>
+                <p class="text-gray-600">
+                  From new hires to your existing workforce, onboard
+                  effortlessly with our self-serve platform.
+                </p>
+              </div>
+            </div>
+            <!-- Step 3 -->
+            <div class="flex items-start space-x-4">
+              <div
+                class="bg-purple-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-semibold"
+              >
+                3
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold">Dedicated onboarding</h3>
+                <p class="text-gray-600">
+                  From navigating local laws to support for your team members,
+                  our dedicated team will help you get set up seamlessly.
+                </p>
+                <button
+                  class="mt-2 text-black font-semibold px-4 py-2 border border-black rounded-full"
+                >
+                  Start Now →
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 px-4">
+      <!-- CTA Section -->
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">
+          Work easy. <br />
+          Grow further with HireGo.
+        </h2>
+        <button
+          class="bg-white text-gray-900 py-2 px-6 rounded-full hover:bg-gray-200"
+        >
+          Request a demo →
+        </button>
+      </div>
+
+      <!-- Footer Content -->
+      <div class="max-w-7xl mx-auto border-t border-gray-700 pt-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <!-- Brand Section -->
+          <div>
+            <h3 class="text-xl font-bold mb-4">HireGo</h3>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-400 hover:text-white">
+                <i class="bx bxl-twitter text-3xl"></i>
+                <!-- Replace with appropriate SVG -->
+              </a>
+              <a href="#" class="text-gray-400 hover:text-white">
+                <i class="bx bxl-facebook-circle text-3xl"></i>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-white">
+                <i class="bx bxl-instagram-alt text-3xl"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Links Section -->
+          <div>
+            <h4 class="text-lg font-semibold mb-4">How it works</h4>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white"
+                  >Hire Employees</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white"
+                  >Hire Contractors</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white"
+                  >Run Global Payroll</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white">App Store</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white">Open API</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Solutions</h4>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white"
+                  >Compliance</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white">Payments</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white"
+                  >For Finance Teams</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white"
+                  >For Legal Teams</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white"
+                  >For Hiring Managers</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Resources</h4>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white">About</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white"
+                  >Support Hub</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white"
+                  >Global Hiring Guide</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white"
+                  >Affiliate Program</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Section -->
+      <div
+        class="mt-8 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-400"
+      >
+        <div>
+          <span>English</span>
+        </div>
+        <div class="mt-4 sm:mt-0">© Copyright 2024. All Rights Reserved.</div>
+        <div class="mt-4 sm:mt-0">
+          <a href="#" class="hover:text-white">Privacy Policy</a> |
+          <a href="#" class="hover:text-white">Terms of Service</a> |
+          <a href="#" class="hover:text-white">Cookie Policy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
